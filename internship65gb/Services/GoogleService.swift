@@ -13,8 +13,6 @@ class GoogleService: NSObject {
     let shared = GIDSignIn.sharedInstance()
    public static var token: String?
     
-
-    
     func getAccessToken() -> String? {
         var token: String?
         shared?.currentUser.authentication.getTokensWithHandler({ (auth, error) in
