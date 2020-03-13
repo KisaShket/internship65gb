@@ -8,22 +8,74 @@
 
 /* Begin PBXBuildFile section */
 		400B2C3024067973001C4137 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400B2C2F24067973001C4137 /* AppDelegate.swift */; };
-		400B2C3224067973001C4137 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400B2C3124067973001C4137 /* SceneDelegate.swift */; };
-		400B2C3424067973001C4137 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400B2C3324067973001C4137 /* ViewController.swift */; };
+		400B2C3424067973001C4137 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400B2C3324067973001C4137 /* LoginController.swift */; };
 		400B2C3724067973001C4137 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 400B2C3524067973001C4137 /* Main.storyboard */; };
 		400B2C3924067976001C4137 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 400B2C3824067976001C4137 /* Assets.xcassets */; };
 		400B2C3C24067976001C4137 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 400B2C3A24067976001C4137 /* LaunchScreen.storyboard */; };
+		400B2C442406867C001C4137 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400B2C432406867C001C4137 /* CustomCell.swift */; };
+		4025219A2407E226005C5F33 /* GdOrgTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402521802407E223005C5F33 /* GdOrgTitle.swift */; };
+		4025219E2407E226005C5F33 /* GdOrganization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402521842407E224005C5F33 /* GdOrganization.swift */; };
+		4025219F2407E226005C5F33 /* GdFullName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402521852407E224005C5F33 /* GdFullName.swift */; };
+		402521A02407E226005C5F33 /* GdEmail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402521862407E224005C5F33 /* GdEmail.swift */; };
+		402521A22407E226005C5F33 /* GdFamilyName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402521882407E224005C5F33 /* GdFamilyName.swift */; };
+		402521A32407E226005C5F33 /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402521892407E224005C5F33 /* Entry.swift */; };
+		402521A42407E226005C5F33 /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4025218A2407E224005C5F33 /* Feed.swift */; };
+		402521A52407E226005C5F33 /* GalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4025218B2407E224005C5F33 /* GalType.swift */; };
+		402521A62407E226005C5F33 /* GdGivenName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4025218C2407E225005C5F33 /* GdGivenName.swift */; };
+		402521A82407E226005C5F33 /* GdName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4025218E2407E225005C5F33 /* GdName.swift */; };
+		402521A92407E226005C5F33 /* GalSyncToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4025218F2407E225005C5F33 /* GalSyncToken.swift */; };
+		402521AB2407E226005C5F33 /* ContactsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402521912407E225005C5F33 /* ContactsModel.swift */; };
+		402521AC2407E226005C5F33 /* GdPhoneNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402521922407E225005C5F33 /* GdPhoneNumber.swift */; };
+		402521AD2407E226005C5F33 /* GdWhere.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402521932407E225005C5F33 /* GdWhere.swift */; };
+		402521AE2407E226005C5F33 /* Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402521942407E225005C5F33 /* Title.swift */; };
+		402521B12407E226005C5F33 /* Link.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402521972407E226005C5F33 /* Link.swift */; };
+		402521B22407E226005C5F33 /* OpenSearchTotalResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402521982407E226005C5F33 /* OpenSearchTotalResults.swift */; };
+		402521B32407E226005C5F33 /* GalHasNext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402521992407E226005C5F33 /* GalHasNext.swift */; };
+		402521B62407E25B005C5F33 /* Networker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402521B52407E25B005C5F33 /* Networker.swift */; };
+		402786E324154E6D00879D3F /* Switcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402786E224154E6D00879D3F /* Switcher.swift */; };
+		4030BFE62417A34000C295D4 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4030BFE52417A34000C295D4 /* Extensions.swift */; };
+		40AC9C802409495D00679D7D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40AC9C7F2409495D00679D7D /* Constants.swift */; };
+		40BEE4402406D0CC00044BF4 /* ContactsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BEE43F2406D0CC00044BF4 /* ContactsTableViewController.swift */; };
+		40CC30B5240FD984006C1C88 /* GoogleService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40CC30B4240FD984006C1C88 /* GoogleService.swift */; };
+		BB76C51E1F2E4F4D411D9CEC /* Pods_internship65gb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B856359B2487695DE80F0542 /* Pods_internship65gb.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		11A7F58A0E2D787DB50D865A /* Pods-internship65gb.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-internship65gb.release.xcconfig"; path = "Pods/Target Support Files/Pods-internship65gb/Pods-internship65gb.release.xcconfig"; sourceTree = "<group>"; };
 		400B2C2C24067973001C4137 /* internship65gb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = internship65gb.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		400B2C2F24067973001C4137 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		400B2C3124067973001C4137 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		400B2C3324067973001C4137 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		400B2C3324067973001C4137 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		400B2C3624067973001C4137 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		400B2C3824067976001C4137 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		400B2C3B24067976001C4137 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		400B2C3D24067976001C4137 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		400B2C432406867C001C4137 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		402521802407E223005C5F33 /* GdOrgTitle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GdOrgTitle.swift; sourceTree = "<group>"; };
+		402521842407E224005C5F33 /* GdOrganization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GdOrganization.swift; sourceTree = "<group>"; };
+		402521852407E224005C5F33 /* GdFullName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GdFullName.swift; sourceTree = "<group>"; };
+		402521862407E224005C5F33 /* GdEmail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GdEmail.swift; sourceTree = "<group>"; };
+		402521882407E224005C5F33 /* GdFamilyName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GdFamilyName.swift; sourceTree = "<group>"; };
+		402521892407E224005C5F33 /* Entry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Entry.swift; sourceTree = "<group>"; };
+		4025218A2407E224005C5F33 /* Feed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Feed.swift; sourceTree = "<group>"; };
+		4025218B2407E224005C5F33 /* GalType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalType.swift; sourceTree = "<group>"; };
+		4025218C2407E225005C5F33 /* GdGivenName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GdGivenName.swift; sourceTree = "<group>"; };
+		4025218E2407E225005C5F33 /* GdName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GdName.swift; sourceTree = "<group>"; };
+		4025218F2407E225005C5F33 /* GalSyncToken.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalSyncToken.swift; sourceTree = "<group>"; };
+		402521912407E225005C5F33 /* ContactsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsModel.swift; sourceTree = "<group>"; };
+		402521922407E225005C5F33 /* GdPhoneNumber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GdPhoneNumber.swift; sourceTree = "<group>"; };
+		402521932407E225005C5F33 /* GdWhere.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GdWhere.swift; sourceTree = "<group>"; };
+		402521942407E225005C5F33 /* Title.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Title.swift; sourceTree = "<group>"; };
+		402521972407E226005C5F33 /* Link.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Link.swift; sourceTree = "<group>"; };
+		402521982407E226005C5F33 /* OpenSearchTotalResults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenSearchTotalResults.swift; sourceTree = "<group>"; };
+		402521992407E226005C5F33 /* GalHasNext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalHasNext.swift; sourceTree = "<group>"; };
+		402521B52407E25B005C5F33 /* Networker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networker.swift; sourceTree = "<group>"; };
+		402786E224154E6D00879D3F /* Switcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Switcher.swift; sourceTree = "<group>"; };
+		4030BFE52417A34000C295D4 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		40AC9C7F2409495D00679D7D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		40BEE43F2406D0CC00044BF4 /* ContactsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsTableViewController.swift; sourceTree = "<group>"; };
+		40CC30B4240FD984006C1C88 /* GoogleService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleService.swift; sourceTree = "<group>"; };
+		51CDFC5F75394043DA73E1D1 /* Pods-internship65gb.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-internship65gb.debug.xcconfig"; path = "Pods/Target Support Files/Pods-internship65gb/Pods-internship65gb.debug.xcconfig"; sourceTree = "<group>"; };
+		B856359B2487695DE80F0542 /* Pods_internship65gb.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_internship65gb.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB76C51E1F2E4F4D411D9CEC /* Pods_internship65gb.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +95,8 @@
 			children = (
 				400B2C2E24067973001C4137 /* internship65gb */,
 				400B2C2D24067973001C4137 /* Products */,
+				42270F2D59CC263470D486F5 /* Pods */,
+				4BD77B051FFBD81FBBDFF85A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,14 +112,103 @@
 			isa = PBXGroup;
 			children = (
 				400B2C2F24067973001C4137 /* AppDelegate.swift */,
-				400B2C3124067973001C4137 /* SceneDelegate.swift */,
-				400B2C3324067973001C4137 /* ViewController.swift */,
+				402786E5241556B000879D3F /* Helpers */,
+				402786E42415569000879D3F /* Services */,
+				402521B42407E23D005C5F33 /* Networking */,
+				4025217F2407E20F005C5F33 /* DataModels */,
+				40BEE44124070CF300044BF4 /* Views */,
+				40BEE44224070D0C00044BF4 /* Controllers */,
 				400B2C3524067973001C4137 /* Main.storyboard */,
 				400B2C3824067976001C4137 /* Assets.xcassets */,
 				400B2C3A24067976001C4137 /* LaunchScreen.storyboard */,
 				400B2C3D24067976001C4137 /* Info.plist */,
 			);
 			path = internship65gb;
+			sourceTree = "<group>";
+		};
+		4025217F2407E20F005C5F33 /* DataModels */ = {
+			isa = PBXGroup;
+			children = (
+				402521912407E225005C5F33 /* ContactsModel.swift */,
+				4025218A2407E224005C5F33 /* Feed.swift */,
+				402521982407E226005C5F33 /* OpenSearchTotalResults.swift */,
+				4025218F2407E225005C5F33 /* GalSyncToken.swift */,
+				402521992407E226005C5F33 /* GalHasNext.swift */,
+				402521892407E224005C5F33 /* Entry.swift */,
+				402521942407E225005C5F33 /* Title.swift */,
+				402521972407E226005C5F33 /* Link.swift */,
+				4025218B2407E224005C5F33 /* GalType.swift */,
+				4025218E2407E225005C5F33 /* GdName.swift */,
+				402521852407E224005C5F33 /* GdFullName.swift */,
+				4025218C2407E225005C5F33 /* GdGivenName.swift */,
+				402521882407E224005C5F33 /* GdFamilyName.swift */,
+				402521932407E225005C5F33 /* GdWhere.swift */,
+				402521842407E224005C5F33 /* GdOrganization.swift */,
+				402521802407E223005C5F33 /* GdOrgTitle.swift */,
+				402521862407E224005C5F33 /* GdEmail.swift */,
+				402521922407E225005C5F33 /* GdPhoneNumber.swift */,
+			);
+			path = DataModels;
+			sourceTree = "<group>";
+		};
+		402521B42407E23D005C5F33 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				402521B52407E25B005C5F33 /* Networker.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		402786E42415569000879D3F /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				40CC30B4240FD984006C1C88 /* GoogleService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		402786E5241556B000879D3F /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				40AC9C7F2409495D00679D7D /* Constants.swift */,
+				402786E224154E6D00879D3F /* Switcher.swift */,
+				4030BFE52417A34000C295D4 /* Extensions.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		40BEE44124070CF300044BF4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				400B2C432406867C001C4137 /* CustomCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		40BEE44224070D0C00044BF4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				400B2C3324067973001C4137 /* LoginController.swift */,
+				40BEE43F2406D0CC00044BF4 /* ContactsTableViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		42270F2D59CC263470D486F5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				51CDFC5F75394043DA73E1D1 /* Pods-internship65gb.debug.xcconfig */,
+				11A7F58A0E2D787DB50D865A /* Pods-internship65gb.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4BD77B051FFBD81FBBDFF85A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B856359B2487695DE80F0542 /* Pods_internship65gb.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +218,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 400B2C4024067976001C4137 /* Build configuration list for PBXNativeTarget "internship65gb" */;
 			buildPhases = (
+				4C353D2787285D33D19BF869 /* [CP] Check Pods Manifest.lock */,
 				400B2C2824067973001C4137 /* Sources */,
 				400B2C2924067973001C4137 /* Frameworks */,
 				400B2C2A24067973001C4137 /* Resources */,
+				F0273995C4BC8B048C24B5C1 /* [CP] Embed Pods Frameworks */,
+				BAAB48474C17CBEA06BABE3C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -133,14 +280,101 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4C353D2787285D33D19BF869 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-internship65gb-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BAAB48474C17CBEA06BABE3C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-internship65gb/Pods-internship65gb-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-internship65gb/Pods-internship65gb-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0273995C4BC8B048C24B5C1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-internship65gb/Pods-internship65gb-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AppAuth/AppAuth.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMAppAuth/GTMAppAuth.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AppAuth.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMAppAuth.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-internship65gb/Pods-internship65gb-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		400B2C2824067973001C4137 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				400B2C3424067973001C4137 /* ViewController.swift in Sources */,
+				40AC9C802409495D00679D7D /* Constants.swift in Sources */,
+				4030BFE62417A34000C295D4 /* Extensions.swift in Sources */,
+				402521A32407E226005C5F33 /* Entry.swift in Sources */,
+				402521A02407E226005C5F33 /* GdEmail.swift in Sources */,
+				402521B12407E226005C5F33 /* Link.swift in Sources */,
+				402521A22407E226005C5F33 /* GdFamilyName.swift in Sources */,
+				402521A82407E226005C5F33 /* GdName.swift in Sources */,
+				402521B32407E226005C5F33 /* GalHasNext.swift in Sources */,
+				40CC30B5240FD984006C1C88 /* GoogleService.swift in Sources */,
+				402521A62407E226005C5F33 /* GdGivenName.swift in Sources */,
+				402521B62407E25B005C5F33 /* Networker.swift in Sources */,
+				402521A92407E226005C5F33 /* GalSyncToken.swift in Sources */,
+				402521AC2407E226005C5F33 /* GdPhoneNumber.swift in Sources */,
+				400B2C3424067973001C4137 /* LoginController.swift in Sources */,
+				402786E324154E6D00879D3F /* Switcher.swift in Sources */,
+				402521B22407E226005C5F33 /* OpenSearchTotalResults.swift in Sources */,
+				40BEE4402406D0CC00044BF4 /* ContactsTableViewController.swift in Sources */,
+				4025219A2407E226005C5F33 /* GdOrgTitle.swift in Sources */,
+				402521A42407E226005C5F33 /* Feed.swift in Sources */,
+				402521AD2407E226005C5F33 /* GdWhere.swift in Sources */,
+				402521A52407E226005C5F33 /* GalType.swift in Sources */,
+				4025219E2407E226005C5F33 /* GdOrganization.swift in Sources */,
+				400B2C442406867C001C4137 /* CustomCell.swift in Sources */,
 				400B2C3024067973001C4137 /* AppDelegate.swift in Sources */,
-				400B2C3224067973001C4137 /* SceneDelegate.swift in Sources */,
+				402521AB2407E226005C5F33 /* ContactsModel.swift in Sources */,
+				402521AE2407E226005C5F33 /* Title.swift in Sources */,
+				4025219F2407E226005C5F33 /* GdFullName.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,11 +516,13 @@
 		};
 		400B2C4124067976001C4137 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51CDFC5F75394043DA73E1D1 /* Pods-internship65gb.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WX79G9TM27;
 				INFOPLIST_FILE = internship65gb/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -294,17 +530,19 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Ms.internship65gb;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		400B2C4224067976001C4137 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11A7F58A0E2D787DB50D865A /* Pods-internship65gb.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WX79G9TM27;
 				INFOPLIST_FILE = internship65gb/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,7 +550,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Ms.internship65gb;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
